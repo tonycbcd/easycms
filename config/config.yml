@@ -1,0 +1,4 @@
+global:
+    debug:  true            # Whether is debug pattern
+
+
