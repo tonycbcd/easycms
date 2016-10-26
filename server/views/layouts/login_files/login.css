@@ -1,0 +1,53 @@
+/*
+ * 登录页面样式
+ */
+@import "../../public.css";
+
+.header .inner.wrp,.mainbody{width:1000px;margin:0 auto;}
+.banner{background:url(banner_bg.jpg) center 0 no-repeat;}
+.header_m .banner{background:url(banner_bg_gl.jpg) center 0 no-repeat;}
+.banner .inner{height:460px;position:relative;}
+
+.icon_login.user,.icon_login.pwd,.icon_arrow,.label_new{background:url(page_login.png) no-repeat;display:inline-block;}
+
+.banner .login_frame{width:316px;float:right;margin-top:25px;}
+.login_frame{padding:25px 35px 20px;border-radius:2px;-moz-border-radius:2px;-webkit-border-radius:2px;box-shadow: 3px 3px 5px rgba(0,0,0,0.5);
+             -moz-box-shadow: 3px 3px 5px rgba(0,0,0,0.5);-webkit-box-shadow: 3px 3px 5px rgba(0,0,0,0.5);background-color: #fff;}
+.login_frame h3{font-size:20px;font-weight:400;font-style:normal;}
+.login_input_panel{margin-top:5px;}
+.login_input{position:relative;padding:3px 0 3px 54px;border:1px solid #E7E7EB;margin-top:-1px;}
+.login_input input{border:0;outline:0;padding:11px 0;vertical-align:middle;width:100%;}
+.icon_login{position:absolute;left: 15px;top: 50%;margin-top: -11px;width: 16px;height: 18px;vertical-align: middle;display: inline-block}
+.icon_login.pwd{background-position:0 -28px;}
+.login_help_panel {overflow: hidden;margin-top: 10px;}
+.login_help_panel label{float:left;}
+.frm_checkbox_label{display:inline-block;text-align:left;cursor:pointer;margin-right:1em;}
+.frm_checkbox {width:16px;height:16px;vertical-align:middle;margin-right:8px;margin-top:-2px;display:inline-block;}
+.login_forget_pwd{float:right;color:#459ae9;}
+.login_forget_pwd:hover{text-decoration:underline;}
+.login_btn_panel {margin-top: 20px;margin-bottom: 10px;}
+.btn_login {display: inline-block;overflow: visible;vertical-align: middle;text-align: center;border-radius: 3px;-moz-border-radius: 3px;-webkit-border-radius: 3px;border-width: 1px;border-style: solid;cursor: pointer;
+            background-color: #44b549;background-image: -moz-linear-gradient(top,#44b549 0,#44b549 100%);background-image: -webkit-gradient(linear,0 0,0 100%,from(#44b549),to(#44b549));
+            background-image: -webkit-linear-gradient(top,#44b549 0,#44b549 100%);background-image: -o-linear-gradient(top,#44b549 0,#44b549 100%);
+            background-image: linear-gradient(to bottom,#44b549 0,#44b549 100%);border-color: #44b549;color: #fff;height: 33px;line-height: 33px;width: 120px;padding-left: 0;padding-right: 0;}
+.btn_login:hover {background-color: #2f9833;background-image: -moz-linear-gradient(top,#2f9833 0,#2f9833 100%);background-image: -webkit-gradient(linear,0 0,0 100%,from(#2f9833),to(#2f9833));
+                  background-image: -webkit-linear-gradient(top,#2f9833 0,#2f9833 100%);background-image: -o-linear-gradient(top,#2f9833 0,#2f9833 100%);
+                  background-image: linear-gradient(to bottom,#2f9833 0,#2f9833 100%);border-color: #2f9833;box-shadow: none;-moz-box-shadow: none;-webkit-box-shadow: none;color: #fff;}
+   
+.qrcode_panel {position: absolute;top: 25px;right: -151px;background-color: #fff;padding:16px;border-radius: 2px;-moz-border-radius: 2px;
+              -webkit-border-radius: 2px;text-align: center;color: #717375;font-size: 12px;line-height:22px;}
+
+              
+.notices_box{overflow: hidden;position:relative;padding-left: 20px;padding-right: 90px;line-height: 40px;background-color: #fff;border: 1px solid #e7e7eb;}
+.notices_box dt{float:left;}
+.notices_box a{color:#222222;}
+.notices_box a:hover{color:#459AE9;text-decoration:underline;}
+.notices_box dd {float: left;margin-left: 30px;}
+.notices_box dd i{display: inline-block;font-weight: 400;font-style: normal;vertical-align: middle;color: #d5d5d5;margin-top: -0.2em;}
+.notices_box dd .notices_title {display: inline-block;vertical-align: middle;width: auto;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;word-wrap: normal;max-width: 22em;}
+.notices_box dd.extra {position: absolute;right: 16px;top: 0;}   
+.icon_arrow{background-position:0 -55px;width:16px;height:15px;}     
+.label_new{background-position:0 -81px;width: 18px;height: 12px;margin-left:6px;}
+
+                       
+                                

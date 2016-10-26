@@ -9,21 +9,29 @@ package conf
 
 type config struct {
 	Global struct {
-		Debug           bool
+        Mode        string
+        Port        string
+        Host        string
+        TimeZoneOffset  int64
+        PublicSalt  string
 	}
+
+    Staticcluster []string
+
+	Mysql struct {
+		Host        string
+		Port        int
+		User        string
+		Pass        string
+		Db          string
+	}
+
 /*
 	Beanstalk struct {
 		Addr  []string
 		Proxy string
 	}
 
-	Mysql struct {
-		Host     string
-		Port     int
-		User     string
-		Password string
-		DBName   string
-	}
 
 	Services map[string]struct {
 		User   string

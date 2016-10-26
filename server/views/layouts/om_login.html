@@ -1,0 +1,27 @@
+{{ define "om_login" }}
+    <div class="banner">
+        <div class="inner wrp">
+            <div class="login_frame">
+                <h3>登录</h3>
+                <form class="login_form" id="id1" action="/om/login" method="post">
+                    {{ if .isWrong }}
+                    <div id="info-container" class="feedback infor bg-danger">邮箱或密码错误，请重新输入.</div>
+                    {{ end }}
+                    <div class="login_input_panel">
+                        <div class="login_input">
+                            <i class="icon_login user"> </i>
+                            <input type="text" placeholder="邮箱" id="email" name="Email" value="{{ .email }}">
+                        </div>
+                        <div class="login_input">
+                            <i class="icon_login pwd"> </i>
+                            <input type="password" placeholder="密码" id="password" name="Password" value="">
+                        </div>
+                    </div>
+                    <div class="login_btn_panel">                                
+                        <button type="submit" class="btn_login" id="loginBt">登 录</button> 
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+{{ end }}

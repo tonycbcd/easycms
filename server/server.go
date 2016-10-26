@@ -9,9 +9,16 @@ package server
 
 import (
     "github.com/tonycbcd/easycms/server/conf"
-    "fmt"
+    "github.com/tonycbcd/easycms/server/models"
+    "github.com/tonycbcd/easycms/server/routers"
+    mid "github.com/tonycbcd/easycms/server/middlewares"
 )
 
 func Run() {
-    fmt.Printf("config: %#v\n", conf.Config)
+    models.Init()
+    app.Use(mid.SetEnv(app))
+
+    routers.SetRouters(app)
+
+    app.Run(":" + conf.Config.Global.Port)
 }

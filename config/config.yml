@@ -1,4 +1,18 @@
 global:
-    debug:  true            # Whether is debug pattern
+    mode:   debug            # Whether is debug pattern
+    port:   10001
+    host:   www.test.com
+    timezoneoffset: 8 
+    publicsalt: abcdefghijk 
 
+staticcluster:
+    - s1.test.com
+    - s2.test.com
+
+mysql:
+    host:   localhost
+    port:   3306
+    user:   root
+    pass:
+    db:     easycms
 

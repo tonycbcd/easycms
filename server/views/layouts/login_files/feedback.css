@@ -1,0 +1,19 @@
+/*
+ * 反馈列表
+ */
+.feedback{box-shadow: inset 0 1px 0 rgba(255,255,255,0.5);
+         font-family: 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, Verdana; }
+.feedback h4{color: #225B86; font-weight:bold;margin:.7em 0;font-size:14px;}
+.feedback p,.feedback ul{color:#676767;}
+.feedback li{list-style: disc; list-style-position: inside;padding:10px;border-radius:5px;}
+.fb_system {position:fixed; _position:absolute; top:0; left:0; width:100%; margin-bottom:0;}
+.feedback li.feedbackPanelINFO{color: #225B86;text-shadow: 0 1px 0 white;border: 1px solid #CADCEA;background:#E1F2FC;
+      background:linear-gradient(top,#E1F2FC,#CAE9FD);}
+.feedback li.feedbackPanelERROR {
+	margin-bottom:5px;
+	border: 1px solid #E5DBAA;
+	background: #FFFFC0;
+	background: -webkit-gradient(linear,left top,left bottom,from(#FFFFC0),to(#F9EE9C));
+	background: -moz-linear-gradient(top,#FFFFC0,#F9EE9C);
+	color: #6D7829;
+}
